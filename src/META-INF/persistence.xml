@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="FShMSPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>BL.Stafi</class>
+    <class>BL.KontaktiKompanis</class>
+    <class>BL.KontaktiStafit</class>
+    <class>BL.Faktura</class>
+    <class>BL.KontaktiProdhuesit</class>
+    <class>BL.Prodhuesi</class>
+    <class>BL.Shitje</class>
+    <class>BL.OrariStafi</class>
+    <class>BL.Blerjet</class>
+    <class>BL.Mengajeri</class>
+    <class>BL.Kompania</class>
+    <class>BL.KontaktiKlienti</class>
+    <class>BL.Stoku</class>
+    <class>BL.Klienti</class>
+    <class>BL.Bonuset</class>
+    <class>BL.Arka</class>
+    <class>BL.Veshja</class>
+    <class>BL.KontaktiKompania</class>
+    <class>BL.Produkti</class>
+    <class>BL.Ngjyra</class>
+    <class>BL.Sysdiagrams</class>
+    <class>BL.Puntori</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost:1434;databaseName=FShMS"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="1"/>
+    </properties>
+  </persistence-unit>
+</persistence>
